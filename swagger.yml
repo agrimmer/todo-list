@@ -14,9 +14,9 @@ paths:
   /:
     get: 
       tags:
-        - todos
+        - todos 
       operationId: find_todos
-      parameters:
+      parameters: 
         - name: since
           in: query
           type: integer
