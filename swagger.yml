@@ -10,7 +10,7 @@ info:
 schemes:
 - http
 basePath: /v1
-paths:
+paths: 
   /:
     get: 
       tags:
