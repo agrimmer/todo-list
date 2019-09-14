@@ -9,7 +9,7 @@ info:
   version: 1.0.0
 schemes:
 - http
-basePath: /v1
+basePath: /v1 
 paths: 
   /:
     get: 
