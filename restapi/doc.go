@@ -8,7 +8,7 @@ A tutorial for the Gophers in Linz
     Schemes:
       http
     Host: localhost
-    BasePath: /
+    BasePath: /v1
     Version: 1.0.0
 
     Consumes:

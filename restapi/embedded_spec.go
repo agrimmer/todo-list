@@ -33,6 +33,7 @@ func init() {
     "title": "A Todo list application",
     "version": "1.0.0"
   },
+  "basePath": "/v1",
   "paths": {
     "/": {
       "get": {
@@ -210,6 +211,7 @@ func init() {
     "title": "A Todo list application",
     "version": "1.0.0"
   },
+  "basePath": "/v1",
   "paths": {
     "/": {
       "get": {

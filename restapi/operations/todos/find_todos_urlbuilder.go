@@ -45,6 +45,9 @@ func (o *FindTodosURL) Build() (*url.URL, error) {
 	var _path = "/"
 
 	_basePath := o._basePath
+	if _basePath == "" {
+		_basePath = "/v1"
+	}
 	_result.Path = golangswaggerpaths.Join(_basePath, _path)
 
 	qs := make(url.Values)
