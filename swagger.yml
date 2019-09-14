@@ -12,7 +12,7 @@ schemes:
 basePath: /v1
 paths:
   /:
-    get:
+    get: 
       tags:
         - todos
       operationId: find_todos
